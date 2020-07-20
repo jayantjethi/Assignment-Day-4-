@@ -1,0 +1,18 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>arrays</title>
+</head>
+<body>
+    
+<script>
+   let shoppingList = ['fruits' , 'vegetables' , 'dryfruits' , 'biscuits' , 'milk'];
+   console.log("Products Are ");
+   for(var i =0 ; i<shoppingList.length ; i++)
+   {
+       console.log(shoppingList[i]);
+   }
+
+</script>
+</body>
+</html>

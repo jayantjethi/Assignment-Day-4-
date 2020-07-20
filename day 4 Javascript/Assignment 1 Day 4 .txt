@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loops</title>
+</head>
+<body>
+    
+<script>
+
+ for(var i =0 ; i <= 100 ; i++)
+ {
+    if(i%3 == 0 && i%5 == 0)
+    {
+        console.log("fizzbuzz");
+        continue;
+    }
+
+    else if(i%3 == 0)
+    {
+        console.log("fizz");
+        continue;
+    
+    }
+    else if(i%5 == 0)
+    {
+        console.log("buzz");
+         
+    }
+  
+ }
+
+
+
+   
+</script>
+</body>
+</html>
